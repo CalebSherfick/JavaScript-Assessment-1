@@ -64,4 +64,21 @@ var crayola1990 = [
  * remember strings are immutable but the value of a variable can be adjusted as often as needed.
  * take advantage of the methods available on stings http://www.w3schools.com/js/js_string_methods.asp
  * there are multiple ways to do something like this but you might consider using split and join
- */ 
+ */
+
+
+
+//for loop
+
+// to lowercase
+// split (" ")
+// join(-)
+
+function boss(arr) {
+	let solution = []
+	for (let i = 0; i < arr.length; i++) {
+		let name = arr[i]
+		solution.push(name.toLowerCase().split(' ').join('-'))
+	}
+	return solution
+}

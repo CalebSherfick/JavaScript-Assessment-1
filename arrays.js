@@ -33,5 +33,19 @@ var tom = {
 };
 
 
+
+
+contacts.push(jake)
+contacts.push(matt)
+contacts.push(tony)
+contacts.push(andrew)
+contacts.push(tom)
+
 //3. Woops after adding all of those people to the same contacts list you realized you need a list just the instructors. Create a new variable named instructors populate it using contacts array. 
 
+let instructors = [];
+
+
+instructors.push(jake)
+instructors.push(tony)
+instructors.push(andrew)
